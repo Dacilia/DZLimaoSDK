@@ -1,0 +1,6 @@
+framework module Pods_DZLimaoSDK_Example {
+  umbrella header "Pods-DZLimaoSDK_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

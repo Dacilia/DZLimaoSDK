@@ -1,0 +1,6 @@
+framework module Pods_DZLimaoSDK_Tests {
+  umbrella header "Pods-DZLimaoSDK_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
