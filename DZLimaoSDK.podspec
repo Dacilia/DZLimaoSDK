@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'DZLimaoSDK'
-  s.version          = '0.1.0'
+  s.version          = '0.2.0'
   s.summary          = 'DZLimaoSDK For limao'
 
 # This description is used to generate tags and improve search results.
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-一个SDK
+DZLimaoSDK lidazhi一个SDK
                        DESC
 
   s.homepage         = 'https://github.com/Dacilia/DZLimaoSDK'
@@ -30,12 +30,12 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'DZLimaoSDK/Classes/**/*'
+  #s.source_files = 'DZLimaoSDK/Classes/**/*'
   
   # s.resource_bundles = {
   #   'DZLimaoSDK' => ['DZLimaoSDK/Assets/*.png']
   # }
-
+  s.vendored_frameworks = 'FeimaoSDK.framework'
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
